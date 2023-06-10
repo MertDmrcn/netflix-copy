@@ -108,4 +108,4 @@ def userDelete(request):
     user = request.user
     user.delete()
     messages.success(request, 'Hesabınız silindi')
-    print("Deneme")
+    
